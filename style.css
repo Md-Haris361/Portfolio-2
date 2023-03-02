@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #303030;
+    overflow-x: hidden;
+    
+}
+
+.main{
+   
+    list-style: none;
+    margin: 10px;
+    left: 40%;
+    
+   
+}
+.main li{
+    position: relative;
+    display: inline-block;
+    justify-content: space-evenly;
+    padding: 20px;
+    left:220px;
+   
+   
+    
+}
+.main li a{
+    
+    left: 50%;
+    text-decoration: none;
+  
+}
+.second{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 190px;
+    background-color: rgba(112, 128, 144, 0.096);
+    left: 450px;
+    top: 170px;
+}
+.third{
+    position: relative;
+    float: right;
+    right: 570px;
+    top: -130px;
+
+}
+.name{
+    position: relative;
+    top: 48px;
+    left: 40px;
+}
+.cont{
+    position: relative;
+    top: 66px;
+    left: 20px;
+}
+.fourth{
+    position:relative;
+    left: 1100px;
+    top: -538px;
+    padding: 100px;
+    justify-content: space-between;
+    word-spacing: 20px;
+    
+}
+.text{
+    position: relative;
+    font-size: 40px;
+    color:  rgba(240, 255, 255, 0.24);
+    left: 15%;
+    word-spacing: 5px;
+    top: 60px;
+    
+    
+}
+.head{
+    position: relative;
+    top: 30px;
+    
+    
+}
+.text::after{
+    content: '';
+    width:10%;
+    height: 2%;
+    background-color: rgba(239, 243, 5, 0.966);
+    position: absolute;
+    
+    
+}
+.pic{
+    position: absolute;
+    bottom: 50px;
+    left: 380px;
+    
+    
+}
+.new{
+    position: relative;
+    left: 205px;
+    bottom: -80px;
+}
+.six{
+    position: relative;
+    left: 700px;
+    bottom: 170px;
+}
+.icon {
+    height: 90px;
+    width: 951px;
+    background-color: rgba(0, 0, 0, 0.404);
+    box-shadow: -1px -1px 20px rgb(20, 18, 18);
+    position: relative;
+    right: 28%;
+    bottom: -5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 15%;
+    top: -170px;
+
+
+}
+.logo{
+    position: relative;
+    background-color: #30303018;
+    
+    
+}
+.next{
+    position: relative;
+    /* bottom: 4; */
+    height: 140vh;
+    background-color:rgba(0, 0, 0, 0.452);
+    top: -170px;
+}
+.seven{
+    position: relative;
+    font-size: 30px;
+    color: antiquewhite;
+    left: 200px;
+    bottom: -120px;
+}
+.up{
+    position: absolute;
+    left: 203px;
+    /* bottom: -180px; */
+    word-spacing: 2px;
+    padding: 4px;
+    color: aliceblue;
+    top: 220px;
+}
+.last{
+    position: relative;
+    left: 204px;
+    top: 240px;
+    
+}
+.tag{
+    position: relative;
+    font-size: 20px;
+}
+.ten{
+    position: relative;
+    left: 400px;
+    top: 130px;
+    
+}
+.element{
+    position: relative;
+    font-size: 20px;
+}
+.eleven{
+    position: relative;
+    left: 700px;
+}
+.same1{
+    position: relative;
+    top: -160px;
+    
+    
+}
+.same2{
+    position: relative;
+    bottom: 110px;
+}
+.same3{
+    position: relative;
+    bottom: 70px;
+}
+.und{
+    position: relative;
+    left: 100px;
+    bottom:  45px;
+}
+.line1::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+}
+.help{
+    content: "";
+    width: 40%;
+    height: 20%;
+    color: darkgoldenrod;
+    bottom:450px;
+    position: relative;
+    right: -460px;
+}
+.help1{
+    content: "";
+    width: 40%;
+    height: 20%;
+    color: darkgoldenrod;
+    bottom: 320px;
+    position: relative;
+    right: -460px;
+}
+.help2{
+    content: "";
+    width: 40%;
+    height: 20%;
+    color: darkgoldenrod;
+    bottom: 200px;
+    position: relative;
+    right: -460px;
+}
+.divider{
+    display: inline-block;
+    height: 2px;
+    width: 475px;
+    background-color: rgba(240, 248, 255, 0.164);
+    position: relative;
+    bottom: 150px;
+}
+.divider1{
+    display: inline-block;
+    height: 2px;
+    width: 475px;
+    background-color: rgba(240, 248, 255, 0.164);
+    position: relative;
+    bottom: 110px;
+}
+.divider2{
+    display: inline-block;
+    height: 2px;
+    width: 475px;
+    background-color: rgba(240, 248, 255, 0.164);
+    position: relative;
+    bottom: 90px;
+}
+.sum{
+    position: relative;
+    height: 200px;
+}
+.sum1{
+    /* box-shadow:10px 10px 10px 10px ; */
+    width: 290px;
+    height: 320px;
+    background-color: rgba(169, 169, 169, 0.226);
+    border-radius: 0px;
+    left: -600px;
+    position: relative;
+}
+.web{
+    position: relative;
+    left: 20px;
+    bottom: -80px;
+    font-size: 20px;
+}
+.app{
+    position: relative;
+    left: 20px;
+    bottom: -100px;
+}
+.sum2{
+    /* box-shadow:10px 10px 10px 10px ; */
+    width: 290px;
+    height: 320px;
+    background-color: rgba(169, 169, 169, 0.226);
+    border-radius: 0px;
+    left: -150px;
+    position: relative;
+    bottom: 315px;
+}
+.web2{
+    position: relative;
+    left: 20px;
+    bottom: -80px;
+    font-size: 20px;
+}
+.app2{
+    position: relative;
+    left: 20px;
+    bottom: -100px;
+}
+.sum3{
+    /* box-shadow:10px 10px 10px 10px ; */
+    width: 290px;
+    height: 320px;
+    background-color: rgba(169, 169, 169, 0.226);
+    border-radius: 0px;
+    left: 300px;
+    position: relative;
+    bottom: 630px;
+}
+.web3{
+    position: relative;
+    left: 20px;
+    bottom: -80px;
+    font-size: 20px;
+}
+.app3{
+    position: relative;
+    left: 20px;
+    bottom: -100px;
+}
+.sum{
+    position: absolute;
+    height: 200px;
+}
+.sum1{
+    /* box-shadow:10px 10px 10px 10px ; */
+    width: 290px;
+    height: 330px;
+    background-color: rgba(169, 169, 169, 0.226);
+    border-radius: 0px;
+    left: -600px;
+    position: relative;
+    top: 30px;
+}
+.web{
+    position: relative;
+    left: 20px;
+    bottom: -80px;
+    font-size: 20px;
+
+}
+.app{
+    position: relative;
+    left: 20px;
+    bottom: -120px;
+}
+.sum2{
+    /* box-shadow:10px 10px 10px 10px ; */
+    width: 290px;
+    height: 335px;
+    background-color: rgba(169, 169, 169, 0.226);
+    border-radius: 0px;
+    left: -150px;
+    position: relative;
+    bottom: 370px;
+    top: -300px;
+}
+.web2{
+    position: relative;
+    left: 20px;
+    bottom: -70px;
+    font-size: 20px;
+}
+.app2{
+    position: relative;
+    left: 20px;
+    bottom: -100px;
+}
+.sum3{
+    /* box-shadow:10px 10px 10px 10px ; */
+    width: 290px;
+    height: 340px;
+    background-color: rgba(169, 169, 169, 0.226);
+    border-radius: 0px;
+    left: 300px;
+    position: relative;
+    bottom: 630px;
+    top: -635px;
+}
+.web3{
+    position: relative;
+    left: 20px;
+    bottom: -80px;
+    font-size: 20px;
+}
+.app3{
+    position: relative;
+    left: 20px;
+    bottom: -100px;
+}
+
+.cad1{
+    position: relative;
+    right: -10px;
+    bottom: -20px;
+    border-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.425);
+    height: 30px;
+    width: 30px;
+}
+.cam1{
+    position: relative;
+    left: 8px;
+    bottom: -8px;
+}
+.cad2{
+    position: relative;
+    right: -10px;
+    bottom: -20px;
+    border-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.425);
+    height: 30px;
+    width: 30px;
+}
+.cam2{
+    position: relative;
+    left: 8px;
+    bottom: -8px;
+}
+.cad3{
+    position: relative;
+    right: -10px;
+    bottom: -20px;
+    border-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.425);
+    height: 30px;
+    width: 30px;
+}
+.cam3{
+    position: relative;
+    left: 8px;
+    bottom: -8px;
+}
+
+
